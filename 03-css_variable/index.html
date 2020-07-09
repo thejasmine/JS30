@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scoped CSS Variable and JS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Update CSS variables with <span class="hl">JS</span></h2>
+    <div class="controls">
+      <label for="spacing">Spacing:</label>
+      <input type="range" name="spacing" class="slider" min="10" max="200" value="10" data-sizing="px">
+
+      <label for="blur">Blur:</label>
+      <input type="range" name="blur" class="slider" min="0" max="25" value="10" data-name="jasmine" data-cool="cool" data-sizing="px">
+
+      <label for="base">Base Color:</label>
+      <input type="color" name="base" value="#9a756e" >
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" alt="newyork">
+  </body>
+  <script src="variable.js"></script>
+ </html>
