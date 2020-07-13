@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  background: #f1d1d1;
+  font-family: 'helvetica neue';
+  font-size:20px;
+  font-weight: 200;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+input {
+  width: 90%;
+  padding:20px;
+}
+
+.search-form {
+  max-width: 400px;
+  maring:50px auto;
+}
+
+.h1 {
+  color:red;
+}
